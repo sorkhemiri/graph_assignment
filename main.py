@@ -1,6 +1,5 @@
 from copy import deepcopy
 
-from models import Vertex, Edge
 from utils import get_input, create_graph
 
 if __name__ == "__main__":
