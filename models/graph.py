@@ -14,6 +14,9 @@ class Graph:
     def add_edge(self, edge: Edge):
         self.edges.append(edge)
 
+    def remove_edge(self, edge: Edge):
+        self.edges.remove(edge)
+
     def add_vertex(self, vertex: Vertex):
         self.vertices.append(vertex)
 
